@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    list-style: none;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+
+header {
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    padding: 2rem 5%;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo span{
+    padding: 2rem;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+nav .logo #psr {
+    background-color: #ffa500;
+    border-radius: .2rem 0 0 .2rem;
+
+}
+
+nav .logo #autoload{
+    background-color: #7159c1;
+    border-radius:0 .2rem .2rem 0;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2rem 5%;
+}
+
+section {
+    padding: 2rem 5%;
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 25px;
+    color: #FFF;
+}
+
+
+.Name {
+    background-color: #454545;
+    border-radius: .2rem 0 0 .2rem;
+}
+
+.Math {
+    border-radius:0 .2rem .2rem 0;
+    background-color: #7159c1;
+}
